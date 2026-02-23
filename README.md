@@ -1,5 +1,11 @@
 # cpp-eshop-project
-Store Management System with user authentication and role-based access. Administrators manage users, products, orders, customers, and reports. Customers browse products, manage a shopping cart, place orders, and track status. Data is saved on exit and loaded on startup
+A really simple Store Management System made with C++ with user authentication and role-based access. Administrators manage users, products, orders, customers, and reports. Customers browse products, manage a shopping cart, place orders, and track status. Data is saved on exit and loaded on startup
+
+# How to run locally
+run the eShop.exe
+or compile and run with console
+g++ main.cpp -o app
+./app
 
 Περιγραφή eshop project - Παπαδάκης Γεώργιος
 
@@ -12,10 +18,9 @@ Store Management System with user authentication and role-based access. Administ
     • Ενημέρωση Κατάσταση Παραγγελίας
     • Εκτύπωση Πελατολογίου
     • Εκτύπωση Παραγγελιών ανά Πελάτη και Κατάσταση Παραγγελίας
-    • Υπολογισμός Κύκλου Εργασιών
     • Αποσύνδεση Διαχειριστή από το Σύστημα. Κατά την αποσύνδεση από το σύστημα , δεν τερματίζεται το πρόγραμμα.
 Πελάτης
-    • Εκτύπωση Καταλόγου Προϊόντων(Συνολικά, Ανά Κατηγορία, Ανά Κατασκευαστή ή Συνδυασμός)
+    • Εκτύπωση Καταλόγου Προϊόντων(Συνολικά, Ανά Κατηγορία)
     • Προσθήκη Προϊόντος στο Καλάθι Αγορών και καθορισμός ποσότητας
     • Εκτύπωση Περιεχομένων Καλαθιού Αγοράς
     • Διαγραφή προϊόντος από το Καλάθι Αγορών
